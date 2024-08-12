@@ -37,7 +37,6 @@ jobs:
       with:
         name: test-reports
         path: build/reports/tests/**
-
     - name: Generate code coverage report
       run: gradle jacocoTestReport
 
